@@ -35,9 +35,9 @@ const largestImage = (sources: Record<string, { width: number; url: string }>, i
 };
 
 export const handler = async (ctx): Promise<Data> => {
-    const { caty, subcaty } = ctx.req.param();
+    const { category, subcategory } = ctx.req.param();
 
-    const link = `${baseUrl}${caty ? `/${caty}` : ''}${subcaty ? `/${subcaty}` : ''}`;
+    const link = `${baseUrl}${category ? `/${category}` : ''}${subcategory ? `/${subcategory}` : ''}`;
     const response = await ofetch<string>(link);
     const $ = load(response);
     const { transformed } = parsePreloadedStateJSON($);
@@ -210,13 +210,13 @@ export const handler = async (ctx): Promise<Data> => {
 };
 
 export const route: Route = {
-    path: '/tw/:caty?/:subcaty?',
+    path: '/tw/:category?/:subcategory?',
     categories: ['new-media'],
     view: ViewType.Articles,
     example: '/gq/tw/style/fashion',
     parameters: {
-        caty: 'Category, e.g., style',
-        subcaty: 'Subcategory, e.g., fashion',
+        category: 'Category, e.g., style',
+        subcategory: 'Subcategory, e.g., fashion',
     },
     features: {
         requireConfig: false,
@@ -228,8 +228,8 @@ export const route: Route = {
     },
     radar: [
         {
-            source: ['gq.com.tw/:caty?/:subcaty?'],
-            target: '/tw/:caty?/:subcaty?',
+            source: ['gq.com.tw/:category?/:subcategory?'],
+            target: '/tw/:category?/:subcategory?',
         },
     ],
     name: 'GQ Taiwan',
