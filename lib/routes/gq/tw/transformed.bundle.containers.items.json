@@ -1,0 +1,131 @@
+{
+    "id": "68d4bda057b95594fcda53cd",
+    "contributors": {
+        "author": {
+            "items": [
+                {
+                    "dangerousBio": "\u003Ca href=\"\u002Fauthor\u002Fparis-wilson\"\u003EParis Wilson\u003C\u002Fa\u003E is a Commerce Producer at \u003Cem\u003ECondé Nast Traveler.\u003C\u002Fem\u003E She is a graduate of Florida A&amp;M University’s School of Journalism and Graphic Design. After going back and forth between different ends of the country, she is excited to plant roots in NYC. ... \u003Ca href=\"\u002Fauthor\u002Fparis-wilson\"\u003EREAD_MORE_PLACEHOLDER\u003C\u002Fa\u003E",
+                    "dangerousTitle": null,
+                    "name": "Paris Wilson",
+                    "photo": {
+                        "altText": "",
+                        "sources": {
+                            "sm": {
+                                "aspectRatio": "1:1",
+                                "width": 768,
+                                "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_768,c_limit\u002FPW%20Headshot.jpg",
+                                "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_120,c_limit\u002FPW%20Headshot.jpg 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_240,c_limit\u002FPW%20Headshot.jpg 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_320,c_limit\u002FPW%20Headshot.jpg 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_640,c_limit\u002FPW%20Headshot.jpg 640w"
+                            },
+                            "lg": {
+                                "aspectRatio": "1:1",
+                                "width": 1280,
+                                "sizes": "25vw",
+                                "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1280,c_limit\u002FPW%20Headshot.jpg",
+                                "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_120,c_limit\u002FPW%20Headshot.jpg 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_240,c_limit\u002FPW%20Headshot.jpg 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_320,c_limit\u002FPW%20Headshot.jpg 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_640,c_limit\u002FPW%20Headshot.jpg 640w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_960,c_limit\u002FPW%20Headshot.jpg 960w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1280,c_limit\u002FPW%20Headshot.jpg 1280w"
+                            },
+                            "xxl": {
+                                "aspectRatio": "1:1",
+                                "width": 1600,
+                                "sizes": "25vw",
+                                "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1600,c_limit\u002FPW%20Headshot.jpg",
+                                "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_120,c_limit\u002FPW%20Headshot.jpg 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_240,c_limit\u002FPW%20Headshot.jpg 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_320,c_limit\u002FPW%20Headshot.jpg 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_640,c_limit\u002FPW%20Headshot.jpg 640w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_960,c_limit\u002FPW%20Headshot.jpg 960w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1280,c_limit\u002FPW%20Headshot.jpg 1280w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1600,c_limit\u002FPW%20Headshot.jpg 1600w"
+                            }
+                        },
+                        "segmentedSources": {
+                            "sm": [
+                                {
+                                    "aspectRatio": "1:1",
+                                    "width": 768,
+                                    "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_768,c_limit\u002FPW%20Headshot.jpg",
+                                    "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_120,c_limit\u002FPW%20Headshot.jpg 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_240,c_limit\u002FPW%20Headshot.jpg 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_320,c_limit\u002FPW%20Headshot.jpg 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_640,c_limit\u002FPW%20Headshot.jpg 640w"
+                                }
+                            ],
+                            "lg": [
+                                {
+                                    "aspectRatio": "1:1",
+                                    "width": 1600,
+                                    "sizes": "25vw",
+                                    "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1600,c_limit\u002FPW%20Headshot.jpg",
+                                    "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_120,c_limit\u002FPW%20Headshot.jpg 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_240,c_limit\u002FPW%20Headshot.jpg 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_320,c_limit\u002FPW%20Headshot.jpg 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_640,c_limit\u002FPW%20Headshot.jpg 640w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_960,c_limit\u002FPW%20Headshot.jpg 960w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1280,c_limit\u002FPW%20Headshot.jpg 1280w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F65810038ae073d4bf222aa25\u002F1:1\u002Fw_1600,c_limit\u002FPW%20Headshot.jpg 1600w"
+                                }
+                            ]
+                        }
+                    },
+                    "socialMedia": [{ "handle": "https:\u002F\u002Fwww.instagram.com\u002Fpariwils\u002F", "network": "instagram", "label": "Follow Paris Wilson on Instagram" }],
+                    "url": "\u002Fauthor\u002Fparis-wilson"
+                }
+            ]
+        }
+    },
+    "contentType": "gallery",
+    "copilotID": "68d4bda057b95594fcda53cd",
+    "contentId": "6164efbb125c2f629b566cb5",
+    "dangerousHed": "星座竟然能決定你的旅遊風格！12 星座夢幻目的地＆專屬住宿攻略一次看",
+    "dangerousDek": "占星師兼旅遊專家親授：快來看看你的星座最適合的旅行與住宿選擇！",
+    "date": "2025年9月25日",
+    "pubDate": "2025-09-25T08:33:38.004Z",
+    "issueDate": "",
+    "image": {
+        "altText": "星座竟然能決定你的旅遊風格！12 星座夢幻目的地＆專屬住宿攻略一次看",
+        "caption": "Aerial sunset panoramic landscape luxury tropical resort water villas. Beautiful island beach orange sunrise sea sky. Amazing bird eyes panorama Maldives paradise tropical bay. Exotic summer vacation",
+        "contentType": "photo",
+        "credit": "Levente Bodo",
+        "id": "68d4fe012d3ba54d19702d3c",
+        "sources": {
+            "sm": {
+                "aspectRatio": "1:1",
+                "width": 768,
+                "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_768,c_limit\u002F1781426263",
+                "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_120,c_limit\u002F1781426263 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_240,c_limit\u002F1781426263 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_320,c_limit\u002F1781426263 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_640,c_limit\u002F1781426263 640w"
+            },
+            "lg": {
+                "aspectRatio": "1:1",
+                "width": 1280,
+                "sizes": "25vw",
+                "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1280,c_limit\u002F1781426263",
+                "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_120,c_limit\u002F1781426263 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_240,c_limit\u002F1781426263 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_320,c_limit\u002F1781426263 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_640,c_limit\u002F1781426263 640w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_960,c_limit\u002F1781426263 960w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1280,c_limit\u002F1781426263 1280w"
+            },
+            "xxl": {
+                "aspectRatio": "1:1",
+                "width": 1600,
+                "sizes": "25vw",
+                "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1600,c_limit\u002F1781426263",
+                "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_120,c_limit\u002F1781426263 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_240,c_limit\u002F1781426263 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_320,c_limit\u002F1781426263 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_640,c_limit\u002F1781426263 640w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_960,c_limit\u002F1781426263 960w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1280,c_limit\u002F1781426263 1280w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1600,c_limit\u002F1781426263 1600w"
+            }
+        },
+        "masterAspectRatio": "5434:3620",
+        "segmentedSources": {
+            "sm": [
+                {
+                    "aspectRatio": "1:1",
+                    "width": 768,
+                    "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_768,c_limit\u002F1781426263",
+                    "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_120,c_limit\u002F1781426263 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_240,c_limit\u002F1781426263 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_320,c_limit\u002F1781426263 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_640,c_limit\u002F1781426263 640w"
+                }
+            ],
+            "lg": [
+                {
+                    "aspectRatio": "1:1",
+                    "width": 1600,
+                    "sizes": "25vw",
+                    "url": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1600,c_limit\u002F1781426263",
+                    "srcset": "https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_120,c_limit\u002F1781426263 120w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_240,c_limit\u002F1781426263 240w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_320,c_limit\u002F1781426263 320w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_640,c_limit\u002F1781426263 640w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_960,c_limit\u002F1781426263 960w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1280,c_limit\u002F1781426263 1280w, https:\u002F\u002Fmedia.gq.com.tw\u002Fphotos\u002F68d4fe012d3ba54d19702d3c\u002F1:1\u002Fw_1600,c_limit\u002F1781426263 1600w"
+                }
+            ]
+        },
+        "showImageWithoutLink": true,
+        "shouldEagerLoad": true
+    },
+    "imageLabels": [],
+    "isSponsored": false,
+    "itemsCount": { "count": 0, "itemType": "slide" },
+    "rubric": { "name": "Life" },
+    "signage": null,
+    "hasNoFollowOnSyndicated": false,
+    "source": { "hed": "星座竟然能決定你的旅遊風格！12 星座夢幻目的地＆專屬住宿攻略一次看！", "dek": "占星師兼旅遊專家親授：快來看看你的星座最適合的旅行與住宿選擇！" },
+    "showAssetOnly": false,
+    "showLinkedAsset": false,
+    "url": "\u002F星座竟然能決定你的旅遊風格12-星座夢幻目的地專屬住宿攻略一次看",
+    "functionalTags": [],
+    "hasNativeImgLazyLoading": true
+}
