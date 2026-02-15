@@ -98,8 +98,8 @@ async function handler(ctx) {
             };
 
             item.link = `${rootUrl}/item?id=${item.guid}`;
-            item.guid = type === 'sources' ? item.guid : `${item.guid}${item.comments === 'discuss' ? '' : `-${item.comments}`}`;
-            item.description = `<a href="${item.link}">Comments on Hacker News</a> | <a href="${item.origin}">Source</a>`;
+            item.guid = type === 'sources' ? item.guid : `${item.guid}${(item.comments as unknown as string) === 'discuss' ? '' : `-${item.comments}`}`;
+            item.description = `<a href="${item.origin}">${item.origin}</a><br><br><a href="${item.link}">Comments on Hacker News</a> | <a href="${item.link.replace('https://news.ycombinator.com/', 'octal://')}">Open in Octal</a>`;
 
             return item;
         });
