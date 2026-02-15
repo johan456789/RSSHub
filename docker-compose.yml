@@ -3,7 +3,8 @@ services:
         # two ways to enable Playwright:
         # * comment out marked lines, then use this image instead: diygod/rsshub:chromium-bundled
         # * (consumes more disk space and memory) leave everything unchanged
-        image: diygod/rsshub # or ghcr.io/diygod/rsshub
+        build: .
+        image: rsshub-local:latest
         restart: always
         ports:
             - '1200:1200'
