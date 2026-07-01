@@ -65,6 +65,7 @@ Maintainer: johan456789
 - 科技大觀園 - 最新文章: route `/scitechvista`
 - BaseLang - Blog: route `/baselang/blog` and `/baselang/blog/:category` (categories: `study-tips`, `vocabulary`, `basic-grammar`)
 - Cursor - Blog: route `/cursor/blog` and `/cursor/blog/:topic` (topics: `product`, `research`, `company`, `news`)
+- Collins Dictionary Blog - Learning Spanish: route `/collinsdictionary/blog/learning-spanish`
 
 ## Review guidelines
 
