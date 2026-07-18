@@ -7,7 +7,7 @@ services:
         image: rsshub-local:latest
         restart: always
         ports:
-            - '1200:1200'
+            - '4573:1200'
         environment:
             NODE_ENV: production
             CACHE_TYPE: redis
