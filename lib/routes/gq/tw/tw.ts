@@ -7,7 +7,6 @@ import logger from '@/utils/logger';
 import { load } from 'cheerio';
 import path from 'node:path';
 import type { Context } from 'hono';
-import { JSONPath } from 'jsonpath-plus';
 
 const baseUrl = 'https://www.gq.com.tw';
 
@@ -134,12 +133,7 @@ async function parseWebpage(url: string): Promise<PageParseResult> {
 
     const headTitle = String(stateObj.transformed['head.title']);
 
-    const nodes = (
-        JSONPath({
-            path: '$.transformed.bundle.containers[*].items[*]',
-            json: stateObj,
-        }) as any[]
-    ).filter((node) => node && node.url);
+    const nodes = (stateObj.transformed.bundle.containers ?? []).flatMap((container: any) => container.items ?? []).filter((node: any) => node && node.url);
 
     const items: DataItem[] = nodes.map((node: any) => {
         const rawUrlPath = String(node.url);
