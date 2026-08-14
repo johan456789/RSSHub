@@ -134,14 +134,16 @@ async function parseWebpage(url: string): Promise<PageParseResult> {
 
     const headTitle = String(stateObj.transformed['head.title']);
 
-    const nodes = (JSONPath({
-        path: '$.transformed.bundle.containers[*].items[*]',
-        json: stateObj,
-    }) as any[]).filter((node) => node && node.url);
+    const nodes = (
+        JSONPath({
+            path: '$.transformed.bundle.containers[*].items[*]',
+            json: stateObj,
+        }) as any[]
+    ).filter((node) => node && node.url);
 
     const items: DataItem[] = nodes.map((node: any) => {
         const rawUrlPath = String(node.url);
-        const urlPath = rawUrlPath.replaceAll(String.raw`\u002F`, "/");
+        const urlPath = rawUrlPath.replaceAll(String.raw`\u002F`, '/');
         const link = new URL(urlPath, baseUrl).toString();
 
         const title = String(node.dangerousHed ?? node.hed ?? '').trim();
@@ -150,9 +152,7 @@ async function parseWebpage(url: string): Promise<PageParseResult> {
         const imgSources = node.image?.sources || undefined;
         const imgSrc = imgSources?.xxl?.url || imgSources?.lg?.url || imgSources?.sm?.url || undefined;
         const textDescription = node.dangerousDek ? String(node.dangerousDek) : undefined;
-        const description = (Boolean(imgSrc) || Boolean(textDescription))
-            ? art(path.join(__dirname, 'templates/description.art'), { src: imgSrc, alt: title, text: textDescription })
-            : undefined;
+        const description = Boolean(imgSrc) || Boolean(textDescription) ? art(path.join(__dirname, 'templates/description.art'), { src: imgSrc, alt: title, text: textDescription }) : undefined;
 
         return {
             title,
@@ -171,7 +171,9 @@ async function parseWebpage(url: string): Promise<PageParseResult> {
  * Extract preloaded state object from HTML
  */
 function extractPreloadedStateObject($: ReturnType<typeof load>): any | null {
-    const stateScriptText = $('script').filter((_, el) => $(el).text().includes('__PRELOADED_STATE__')).text();
+    const stateScriptText = $('script')
+        .filter((_, el) => $(el).text().includes('__PRELOADED_STATE__'))
+        .text();
     if (!stateScriptText) {
         logger.info('[gq/tw] __PRELOADED_STATE__ script not found');
         return null;
