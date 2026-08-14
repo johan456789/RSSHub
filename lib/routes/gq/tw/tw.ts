@@ -88,11 +88,11 @@ export const route: Route = {
 };
 
 async function handler(ctx: Context): Promise<Data> {
-    const category = ctx.req.param('category') ?? '';
+    const category = ctx.req.param('category');
     const subcategory = ctx.req.param('subcategory') ?? '';
     const limit: number = Number.parseInt(ctx.req.query('limit') ?? '21', 10);
 
-    if (!category || !(category in categoryTitleMap)) {
+    if (!(category in categoryTitleMap)) {
         throw new Error(`Unsupported category: ${category}`);
     }
 
