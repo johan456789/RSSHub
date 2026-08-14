@@ -104,7 +104,7 @@ async function handler(ctx: Context): Promise<Data> {
 
     const listUrl = `${baseUrl}/${category}${subcategory ? '/' + subcategory : ''}`;
     const { items, headTitle } = await parseWebpage(listUrl);
-    logger.info(`[gq/tw] fetched ${items.length} items from ${listUrl}`);
+    logger.debug(`[gq/tw] fetched ${items.length} items from ${listUrl}`);
 
     const categoryTitle = categoryTitleMap[category];
     const subcategoryTitle = subcategory ? subcategoryTitleMaps[category][subcategory] : undefined;
@@ -157,7 +157,7 @@ async function parseWebpage(url: string): Promise<PageParseResult> {
         } as DataItem;
     });
 
-    logger.info(`[gq/tw] parsed ${items.length} items from JSON state ${url}`);
+    logger.debug(`[gq/tw] parsed ${items.length} items from JSON state ${url}`);
     return { items, headTitle };
 }
 
@@ -165,11 +165,9 @@ async function parseWebpage(url: string): Promise<PageParseResult> {
  * Extract preloaded state object from HTML
  */
 function extractPreloadedStateObject($: ReturnType<typeof load>): any | null {
-    const stateScriptText = $('script')
-        .filter((_, el) => $(el).text().includes('__PRELOADED_STATE__'))
-        .text();
+    const stateScriptText = $('script:contains("__PRELOADED_STATE__")').text();
     if (!stateScriptText) {
-        logger.info('[gq/tw] __PRELOADED_STATE__ script not found');
+        logger.debug('[gq/tw] __PRELOADED_STATE__ script not found');
         return null;
     }
 
@@ -177,7 +175,7 @@ function extractPreloadedStateObject($: ReturnType<typeof load>): any | null {
     const braceStart = stateScriptText.indexOf('{', assignIndex);
     const braceEnd = stateScriptText.lastIndexOf('}');
     if (braceStart === -1 || braceEnd === -1 || braceEnd <= braceStart) {
-        logger.info('[gq/tw] __PRELOADED_STATE__ json is malformed');
+        logger.debug('[gq/tw] __PRELOADED_STATE__ json is malformed');
         return null;
     }
 
