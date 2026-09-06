@@ -12,6 +12,7 @@ services:
             NODE_ENV: production
             CACHE_TYPE: redis
             REDIS_URL: 'redis://redis:6379/'
+            ALLOW_ORIGIN: '*'
             PLAYWRIGHT_WS_ENDPOINT: 'ws://browserless:3000' # marked
         healthcheck:
             test: ['CMD', 'curl', '-f', 'http://localhost:1200/healthz']
