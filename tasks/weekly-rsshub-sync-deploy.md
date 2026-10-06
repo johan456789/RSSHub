@@ -19,7 +19,7 @@ push `myfork`, and redeploy the local compose stack. Runs weekly.
    - On failure: STOP. Do not deploy (deployed code would diverge from remote).
 3. `just deploy` (default flags: prune enabled, no cache flush)
 4. Verify: `docker compose ps` (all healthy) and
-   `curl -s http://localhost:4573/healthz`
+   `curl -s http://localhost:4092/healthz`
 
 ## Rules
 
