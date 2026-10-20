@@ -66,6 +66,7 @@ Maintainer: johan456789
 - BaseLang - Blog: route `/baselang/blog` and `/baselang/blog/:category` (categories: `study-tips`, `vocabulary`, `basic-grammar`)
 - Cursor - Blog: route `/cursor/blog` and `/cursor/blog/:topic` (topics: `product`, `research`, `company`, `news`)
 - Collins Dictionary Blog - Learning Spanish: route `/collinsdictionary/blog/learning-spanish`
+- 痞客邦 - Blog: route `/pixnet/blog/:id` and `/pixnet/blog/:id/:categoryId` (example: `/pixnet/blog/wildflower`)
 
 ## Review guidelines
 
