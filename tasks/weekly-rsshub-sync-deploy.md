@@ -12,6 +12,9 @@ push `myfork`, and redeploy the local compose stack. Runs weekly.
 
 ## Steps (in order, each gated on the previous succeeding)
 
+0. Confirm the working branch is `myfork`: `git branch --show-current` must print `myfork`.
+   - If not, run `git checkout myfork`. If checkout fails (for example, uncommitted
+     changes block it), STOP. Do not sync, push, or deploy from another branch.
 1. `just sync`
    - On failure: if a rebase is in progress, run `git rebase --abort`, confirm
      `git status` is clean, then STOP. Do not push or deploy.
@@ -23,7 +26,7 @@ push `myfork`, and redeploy the local compose stack. Runs weekly.
 
 ## Rules
 
-- Work in `/home/han/Developer/RSSHub`. Bypass git precommit hooks with
+- Work in `/home/han/Developer/RSSHub` on the `myfork` branch only. Bypass git precommit hooks with
   `--no-verify` if a commit is ever needed (normally none is).
 - Never resolve rebase conflicts automatically. Abort and report.
 - Never run steps 2–3 if step 1 failed. Never run step 3 if step 2 failed.
